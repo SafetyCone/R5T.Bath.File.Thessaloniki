@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 
 using R5T.Bath.File.Default;
-using R5T.Thessaloniki;
+using R5T.Thessaloniki;using R5T.T0064;
 
 
 namespace R5T.Bath.File.Thessaloniki
-{
-    public class TemporaryDirectoryBasedHumanOutputFileDirectoryPathProvider : IHumanOutputFileDirectoryPathProvider
+{[ServiceImplementationMarker]
+    public class TemporaryDirectoryBasedHumanOutputFileDirectoryPathProvider : IHumanOutputFileDirectoryPathProvider,IServiceImplementation
     {
         private ITemporaryDirectoryPathProvider TemporaryDirectoryPathProvider { get; }
 

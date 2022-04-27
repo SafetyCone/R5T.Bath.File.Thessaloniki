@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bath.File.Thessaloniki.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bath.File.Thessaloniki.Testing", "R5T.Bath.File.Thessaloniki.Testing\R5T.Bath.File.Thessaloniki.Testing.csproj", "{506C615F-B86D-49E0-8A74-3FEAA1F78A73}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{5081CA2D-FB26-4548-ACA8-ABCA62F84F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{506C615F-B86D-49E0-8A74-3FEAA1F78A73}.Release|x64.Build.0 = Release|Any CPU
 		{506C615F-B86D-49E0-8A74-3FEAA1F78A73}.Release|x86.ActiveCfg = Release|Any CPU
 		{506C615F-B86D-49E0-8A74-3FEAA1F78A73}.Release|x86.Build.0 = Release|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Debug|x64.Build.0 = Debug|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Debug|x86.Build.0 = Debug|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Release|x64.ActiveCfg = Release|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Release|x64.Build.0 = Release|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Release|x86.ActiveCfg = Release|Any CPU
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F33ED336-8A59-4B37-9F5C-F1AE0CFCE38C} = {5081CA2D-FB26-4548-ACA8-ABCA62F84F81}
 	EndGlobalSection
 EndGlobal
